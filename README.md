@@ -19,7 +19,7 @@ The *ORG Harvester* uses port 80, so when running the container it is important 
 
 ```bash
 docker run -p 8088:80 \
-           --name sdh-org-harvester
+           --name sdh-org-harvester \
            sdh/org-harvester
 ```
 
